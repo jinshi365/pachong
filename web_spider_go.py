@@ -3,7 +3,7 @@ import urllib.error
 import builtwith
 
 
-def download(url, user_agent='jin', num_retries=2):
+def download(url, user_agent='jinsh', num_retries=2):
     """print(builtwith.parse(url))"""
     print('当前下载链接', url)
     headers = {'User-agent': user_agent}
